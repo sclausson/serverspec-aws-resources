@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'serverspec-aws-resources'
-  s.version     = '0.0.5'
+  s.version     = '0.0.6'
   s.date        = '2015-01-26'
   s.summary     = 'serverspec resource types to test AWS resources'
   s.description = s.summary
@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'eric.kascic@stelligent.com'
   s.files       =  Dir['lib/*.rb'] + Dir['lib/resources/*.rb']
 
-  s.add_runtime_dependency 'aws-sdk', '>= 1.61.0'
+  s.add_runtime_dependency 'aws-sdk', '>= 2.1.0'
 end
